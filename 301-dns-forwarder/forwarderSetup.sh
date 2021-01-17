@@ -18,6 +18,7 @@ sudo cat > named.conf.options << EndOFNamedConfOptions
 acl goodclients {
     $2;
     $3;
+    11.0.0.0/16;
     localhost;
     localnets;
 };
